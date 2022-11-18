@@ -21,10 +21,10 @@
         <ComboBox
             x:Name="SortingAlgorithm"
             Grid.Row="0"
+            SelectionChanged="SortingAlgorithm_OnSelectionChanged"
             Width="150"
             Height="40"
-            FontSize="20"
-            SelectionChanged="SortingAlgorithm_OnSelectionChanged">
+            FontSize="20">
             <ComboBoxItem Content="Bubble Sort" IsSelected="True" />
             <ComboBoxItem Content="Quick Sort" />
             <ComboBoxItem Content="Heap Sort" />
